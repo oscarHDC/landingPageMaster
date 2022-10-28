@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "karla", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+}
+.grid--2-cols-hero {
+  grid-template-columns: 1.5fr 2fr;
+  column-gap: 5rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10rem;
+}
+
+.padding-top {
+  padding-top: 4rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 5.5rem;
+  line-height: 0.9;
+  margin-bottom: 5rem;
+}
+h2 {
+  font-size: 5rem;
+  margin-bottom: 8rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.view-button {
+  padding: 1.2rem 3rem 1.2rem 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 0;
+  border: 2px solid;
+
+  transition: all 0.3s ease-out;
+}
+
+.view-button-white {
+  border-color: #0b7285;
+  color: #0b7285;
+}
+.view-button-white:hover {
+  background-color: #0b7285;
+  color: #fff;
+}
+
+.view-button-blue {
+  border-color: #fff;
+  color: #fff;
+}
+
+.view-button-blue:hover {
+  background-color: #fff;
+  color: #0b7285;
+}
